@@ -55,7 +55,7 @@ interface DeleteUserData {
       if (result) {
         res.status(200).json({ message: 'User deleted successfully', userId: userId });
       } else {
-        res.status(404).json({ message: 'User not found', userId: userId });
+        res.status(404).json({ message: 'User not found5', userId: userId });
       }
     } catch (error: unknown) {
       if (error instanceof Error) {
