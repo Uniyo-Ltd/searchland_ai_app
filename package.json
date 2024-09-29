@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@prisma/client": "^5.20.0",
+    "drizzle-orm": "^0.33.0",
+    "lerna": "^8.1.8"
+  }
+}

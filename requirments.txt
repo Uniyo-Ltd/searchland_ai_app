@@ -1,0 +1,27 @@
+      [x] Monorepo 
+      [x] Create a basic user table
+      [x] Tailwind
+      [x] List all the users (must have pagination)
+      [x] Create the ability to add a user
+      [x] Allow deleting of a user
+      [ ] Create a user profile page when clicking on a row in the table and display info about the user
+      [ ] Global state management tRPC
+
+
+
+tech stack 
+next js (typescipt react)
+Backend postgreSQL drizzle as ORM Node.js
+
+
+
+
+
+5. To link dependencies between packages, you can use:
+lerna bootstrap
+
+
+6. To publish your packages, you can use:
+lerna publish
+
+
